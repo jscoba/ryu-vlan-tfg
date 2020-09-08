@@ -1,0 +1,11 @@
+\chapter{Conclusiones}
+
+En este trabajo hemos logrado implementar con éxito una red autoconfigurable mediante Ryu. La red es capaz de detectar los dispositivos que tiene conectados y adaptar sus tablas de encaminamiento a dichos dispositivos. Además es capaz de asignar de forma dinámica una VLAN a cada nodo en el momento de conectarse basado en su dirección MAC sin la necesidad de intervención externa.
+
+La red también es redundante en enlaces y es capaz de recuperar la conectividad de manera automática en caso de conexión de una caída de enlace.
+
+Tras haber hecho un estudio exhaustivo de la arquitectura de redes definidas por software y haber desarrollado una podemos afirmar que, aunque la carga de trabajo a la hora de instalar la red sea grande esta facilita enormemente la administración y el mantenimiento de la misma, con su correspondiente mejora en eficacia y reducción de costes.
+
+Como trabajo futuro se deja la inclusión de un sistema de Calidad de Servicio basado en las colas de prioridad de las que disponen los switches OpenFlow o la inclusión de un protocolo de \textit{link aggregation}.
+
+En definitiva tenemos un proyecto software que puede ser usado, con algunos ligeros ajustes en entornos SDN reales.
